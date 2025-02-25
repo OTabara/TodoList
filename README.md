@@ -1,40 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# To-Do List Application
+Une application simple de gestion de tâches (To-Do List) réalisée avec React, permettant d'ajouter, de modifier, de supprimer et de marquer des tâches comme terminées. Les données sont stockées localement dans le navigateur avec Local Storage, ce qui permet de conserver les tâches même après un redémarrage de l'application.
 
-## Getting Started
+### Fonctionnalités :
+<ul>
+  <li> <strong>Ajouter des tâches : </strong> Ajoutez des tâches en les saisissant dans le champ d'entrée.</li>
+  <li> <strong>Marquer comme terminée : </strong> Cliquez sur la tâche pour la marquer comme terminée (barrée).</li>
+  <li> <strong> Modifier des tâches : </strong> Cliquez sur l'icône de crayon pour modifier une tâche existante.</li>
+  <li> <strong> Supprimer des tâches :  </strong> Cliquez sur l'icône de la corbeille pour supprimer une tâche.</li>
+  <li> <strong> Persistant avec Local Storage : </strong> Les tâches sont enregistrées dans le navigateur et persistent même après le rechargement de la page.</li>
+</ul>
+### Technologies utilisées :
+<ul>
+  <li>React : Bibliothèque JavaScript pour construire l'interface utilisateur.</li>
+  <li>React Icons : Utilisé pour afficher des icônes (modification, suppression, etc.).</li>
+  <li>LocalStorage : Pour sauvegarder les tâches localement.</li>
+</ul>
 
-First, run the development server:
+### Installation
+
+#### Prérequis
+
+- Node.js et npm doivent être installés sur votre machine.
+
+#### Étapes d'installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clonez le projet depuis GitHub
+git clone https://github.com/ton-utilisateur/to-do-list.git
+
+# Naviguez dans le répertoire du projet
+cd to-do-list
+
+# Installez les dépendances nécessaires
+npm install
+
+# Lancez l'application en mode développement
+npm start
 ```
+L'application sera accessible à l'adresse http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+### Auteur :
+Oumou Tabara DIALLO
