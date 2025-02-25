@@ -9,6 +9,7 @@ Une application simple de gestion de tâches (To-Do List) réalisée avec React,
   <li> <strong> Supprimer des tâches :  </strong> Cliquez sur l'icône de la corbeille pour supprimer une tâche.</li>
   <li> <strong> Persistant avec Local Storage : </strong> Les tâches sont enregistrées dans le navigateur et persistent même après le rechargement de la page.</li>
 </ul>
+
 ### Technologies utilisées :
 <ul>
   <li>React : Bibliothèque JavaScript pour construire l'interface utilisateur.</li>
