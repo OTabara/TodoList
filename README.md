@@ -26,10 +26,10 @@ Une application simple de gestion de tâches (To-Do List) réalisée avec React,
 
 ```bash
 # Clonez le projet depuis GitHub
-git clone https://github.com/ton-utilisateur/to-do-list.git
+git clone [https://github.com/ton-utilisateur/to-do-list.git](https://github.com/OTabara/TodoList)
 
 # Naviguez dans le répertoire du projet
-cd to-do-list
+cd todo_list
 
 # Installez les dépendances nécessaires
 npm install
