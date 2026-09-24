@@ -2,6 +2,12 @@
 
 Une refonte de l’application To-Do List : une interface claire, responsive et entièrement en français pour organiser sa journée sans distraction.
 
+## Aperçu
+
+| Ordinateur | Écran compact |
+| --- | --- |
+| ![Clair sur ordinateur](public/screenshots/clair-desktop.png) | ![Clair sur écran compact](public/screenshots/clair-responsive.png) |
+
 ## Fonctionnalités
 
 - Ajouter, modifier, terminer et supprimer des tâches
