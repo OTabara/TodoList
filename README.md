@@ -1,44 +1,25 @@
-# To-Do List Application
-Une application simple de gestion de tâches (To-Do List) réalisée avec React, permettant d'ajouter, de modifier, de supprimer et de marquer des tâches comme terminées. Les données sont stockées localement dans le navigateur avec Local Storage, ce qui permet de conserver les tâches même après un redémarrage de l'application.
+# Clair — To-Do List
 
-### Fonctionnalités :
-<ul>
-  <li> <strong>Ajouter des tâches : </strong> Ajoutez des tâches en les saisissant dans le champ d'entrée.</li>
-  <li> <strong>Marquer comme terminée : </strong> Cliquez sur la tâche pour la marquer comme terminée (barrée).</li>
-  <li> <strong> Modifier des tâches : </strong> Cliquez sur l'icône de crayon pour modifier une tâche existante.</li>
-  <li> <strong> Supprimer des tâches :  </strong> Cliquez sur l'icône de la corbeille pour supprimer une tâche.</li>
-  <li> <strong> Persistant avec Local Storage : </strong> Les tâches sont enregistrées dans le navigateur et persistent même après le rechargement de la page.</li>
-</ul>
+Une refonte de l’application To-Do List : une interface claire, responsive et entièrement en français pour organiser sa journée sans distraction.
 
-### Technologies utilisées :
-<ul>
-  <li>React : Bibliothèque JavaScript pour construire l'interface utilisateur.</li>
-  <li>React Icons : Utilisé pour afficher des icônes (modification, suppression, etc.).</li>
-  <li>LocalStorage : Pour sauvegarder les tâches localement.</li>
-</ul>
+## Fonctionnalités
 
-### Installation
+- Ajouter, modifier, terminer et supprimer des tâches
+- Définir une priorité et une échéance
+- Rechercher et filtrer les tâches
+- Suivre sa progression et replier les tâches terminées
+- Conserver les données dans le navigateur, avec reprise des tâches de l’ancienne version
+- Mise en page adaptée au mobile et prise en compte de la préférence de réduction des animations
 
-#### Prérequis
+## Lancer l’application
 
-- Node.js et npm doivent être installés sur votre machine.
-
-#### Étapes d'installation
+Prérequis : Node.js et npm.
 
 ```bash
-# Clonez le projet depuis GitHub
-git clone [https://github.com/ton-utilisateur/to-do-list.git](https://github.com/OTabara/TodoList)
-
-# Naviguez dans le répertoire du projet
-cd todo_list
-
-# Installez les dépendances nécessaires
 npm install
-
-# Lancez l'application en mode développement
-npm start
+npm run dev
 ```
-L'application sera accessible à l'adresse http://localhost:3000.
 
-### Auteur :
-Oumou Tabara DIALLO
+Ouvrez ensuite [http://localhost:3000](http://localhost:3000).
+
+Les tâches sont stockées dans le `localStorage` du navigateur et ne sont pas synchronisées entre appareils.
